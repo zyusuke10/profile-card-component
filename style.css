@@ -30,7 +30,10 @@ main{
     border-radius:20px;
     background-color:white;
     margin: 145px 0;
-    z-index:1;
+    -moz-box-shadow: -10px 7px 44px -3px rgba(0, 0, 0, 0.46);
+    -webkit-box-shadow: -10px 7px 44px -3px rgba(0, 0, 0, 0.46);
+    -ms-box-shadow: -10px 7px 44px -3px rgba(0, 0, 0, 0.46);
+    box-shadow: -10px 7px 44px -3px rgba(0, 0, 0, 0.46);
 }
 
 .card-bg{
